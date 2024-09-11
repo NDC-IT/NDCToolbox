@@ -1,32 +1,21 @@
 function Get-DCHelp {
-    $DCToolboxVersion = '2.0.21'
+    $NDCToolboxVersion = '2.0.21'
 
 
     $HelpText = @"
 
-    ____  ____________            ____              
-   / __ \/ ____/_  __/___  ____  / / /_  ____  _  __
-  / / / / /     / / / __ \/ __ \/ / __ \/ __ \| |/_/
- / /_/ / /___  / / / /_/ / /_/ / / /_/ / /_/ />  <  
-/_____/\____/ /_/  \____/\____/_/_.___/\____/_/|_|  
 
-A PowerShell toolbox for Microsoft 365 security fans.
-
+  _   _ _____   _____    _____ _______ 
+ | \ | |  __ \ / ____|  |_   _|__   __|
+ |  \| | |  | | |   ______| |    | |   
+ | . ` | |  | | |  |______| |    | |   
+ | |\  | |__| | |____    _| |_   | |   
+ |_| \_|_____/ \_____|  |_____|  |_|   
+                                     
 ---------------------------------------------------
 
 Author: Daniel Chronlund
-Version: $DCToolboxVersion
-
-This PowerShell module contains a collection of tools for Microsoft 365 security tasks, Microsoft Graph functions, Entra ID management, Conditional Access, zero trust strategies, attack and defense scenarios, and more.
-
-The home of this module: https://github.com/DanielChronlund/DCToolbox
-
-Please follow me on my blog https://danielchronlund.com, on LinkedIn and on X!
-
-@DanielChronlund
-
-
-To get started, explore and copy script examples to your clipboard with:
+Version: $NDCToolboxVersion
 
 "@
 
